@@ -55,4 +55,6 @@ Rails.application.routes.draw do
   #   end
 
   root 'application#hello'
+
+  get 'goodbye' => 'application#goodbye'
 end
